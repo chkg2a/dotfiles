@@ -1,0 +1,17 @@
+# vim: filetype=sh
+alias bf="$EDITOR /home/xrenne/.config/shell/bm-files" \
+bd="$EDITOR /home/xrenne/.config/shell/bm-dirs" \
+cfx="$EDITOR /home/xrenne/.config/x11/xresources" \
+cfb="$EDITOR ~/.local/src/dwmblocks/config.h" \
+cfv="$EDITOR /home/xrenne/.config/nvim/init.vim" \
+cfz="$EDITOR /home/xrenne/.config/zsh/.zshrc" \
+cfa="$EDITOR /home/xrenne/.config/shell/aliasrc" \
+cfp="$EDITOR /home/xrenne/.config/shell/profile" \
+cfm="$EDITOR /home/xrenne/.config/mutt/muttrc" \
+cfn="$EDITOR /home/xrenne/.config/newsboat/config" \
+cfu="$EDITOR /home/xrenne/.config/newsboat/urls" \
+cfmb="$EDITOR /home/xrenne/.config/ncmpcpp/bindings" \
+cfmc="$EDITOR /home/xrenne/.config/ncmpcpp/config" \
+cfl="$EDITOR /home/xrenne/.config/lf/lfrc" \
+cfL="$EDITOR /home/xrenne/.config/lf/scope" \
+cfX="$EDITOR /home/xrenne/.config/sxiv/exec/key-handler" \
