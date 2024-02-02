@@ -10,3 +10,6 @@
 [submodule ".local/share/clone/dwmblocks"]
 	path = .local/share/clone/dwmblocks
 	url = git@github.com:chkg2a/dwmblocks
+[submodule ".local/share/clone/dmenu"]
+	path = .local/share/clone/dmenu
+	url = git@github.com:chkg2a/dmenu
