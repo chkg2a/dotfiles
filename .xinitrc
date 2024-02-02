@@ -1,5 +1,5 @@
 pipewire-pulse &
-$HOME/.local/bin/weblogin &
+# $HOME/.local/bin/weblogin &
 xcompmgr &
 #compfy &
 setxkbmap -option caps:escape &
