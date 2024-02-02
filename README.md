@@ -1,7 +1,7 @@
 # My Configurations
 
 ## Preview
-[preview](https://github.com/chkg2a/dotfiles/blob/main/preview.png?raw=true)
+![preview](https://github.com/chkg2a/dotfiles/blob/main/preview.png?raw=true)
 
 
 ## Installation
