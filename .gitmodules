@@ -7,3 +7,6 @@
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh
 	url = git@github.com:chkg2a/ohmyzsh.git
+[submodule "local/share/clone/dwm"]
+	path = local/share/clone/dwm
+	url = git@github.com:chkg2a/dwm
