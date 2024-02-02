@@ -1,0 +1,13 @@
+#!/bin/bash
+
+login()
+{
+  curl 'http://10.10.10.2:8090/login.xml' -X POST --data-raw 'mode=191&username=223104&password=Welcome%40123&a=1704770693684&producttype=0'
+}
+
+while :
+do
+  login
+  sleep 30
+done
+
