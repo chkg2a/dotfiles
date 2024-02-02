@@ -4,4 +4,4 @@ setxkbmap -option caps:escape &
 xwallpaper --maximize $HOME/.local/share/wallpaper.jpg &
 xset r rate 200 50 &
 exec dwmblocks &
-exec /home/xrenne/.local/bin/startdwm
+exec $HOME/.local/bin/startdwm
