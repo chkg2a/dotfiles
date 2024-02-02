@@ -10,9 +10,8 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.zprofile
 bindkey -v
 
 # User configuration
 export LANG=en_US.UTF-8
-
-[ "$(tty)" = "/dev/tty1" ] && ! pidof -s Xorg >/dev/null 2>&1 && exec startx "$XINITRC"
