@@ -9,9 +9,13 @@ STUDIES_ID="1dqPJdbrdmpQ1e9jnCSExmGfKd03zph1i"
 DATABASE_PATH="/media/SSD/Stuffs/daftpunk.kdbx"
 DATABASE_ID="1BmjSalsCFE9--UeFUcDct9pjbq4kPzbn"
 
+OBSIDIAN_PATH="/media/SSD/Stuffs/obsidian_ChK"
+OBSIDIAN_ID="1eWIhijikIZZ6bgoEKLb58yb1kYLhgLfC"
+
 comp_and_sync_file(){
   file_name=$(awk -F'/' '{print $NF}' <<< $1)
   tmp_dir="/tmp/$file_name.tar.gz"
+  rm -rf $tmp_dir
   tar -I pxz -cf $tmp_dir $1
   gdrive files update $2 $tmp_dir
 }
@@ -22,4 +26,5 @@ sync_file(){
 
 # comp_and_sync_file $SCREENSHOTS_PATH $SCREENSHOTS_ID &
 comp_and_sync_file $STUDIES_PATH $STUDIES_ID &
-sync_file $DATABASE_PATH $DATABASE_ID &
+comp_and_sync_file $OBSIDIAN_PATH $OBSIDIAN_ID &
+# sync_file $DATABASE_PATH $DATABASE_ID &
