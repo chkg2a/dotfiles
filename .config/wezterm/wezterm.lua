@@ -34,6 +34,7 @@ return {
 	line_height = 1.0,
 	dpi = 96.0,
 
+
 	-- Cursor style
 	default_cursor_style = "BlinkingUnderline",
 
@@ -102,16 +103,16 @@ return {
 			mods = "CTRL|SHIFT|ALT",
 			action = wezterm.action({ AdjustPaneSize = { "Down", 1 } }),
 		},
-		{ -- browser-like bindings for tabbing
-			key = "t",
-			mods = "CTRL",
-			action = wezterm.action({ SpawnTab = "CurrentPaneDomain" }),
-		},
-		{
-			key = "w",
-			mods = "CTRL",
-			action = wezterm.action({ CloseCurrentTab = { confirm = false } }),
-		},
+		-- { -- browser-like bindings for tabbing
+		-- 	key = "t",
+		-- 	mods = "CTRL",
+		-- 	action = wezterm.action({ SpawnTab = "CurrentPaneDomain" }),
+		-- },
+		-- {
+			-- key = "w",
+			-- mods = "CTRL",
+			-- action = wezterm.action({ CloseCurrentTab = { confirm = false } }),
+		-- },
 		{
 			key = "Tab",
 			mods = "CTRL",
@@ -158,7 +159,7 @@ return {
 	-- General
 	automatically_reload_config = true,
 	inactive_pane_hsb = { saturation = 1.0, brightness = 1.0 },
-	window_background_opacity = 0.8,
+	window_background_opacity = 0.85,
 	window_close_confirmation = "NeverPrompt",
   window_frame = { active_titlebar_bg = "#45475a", font = font_with_fallback(font_name, { bold = true }) },
 }
