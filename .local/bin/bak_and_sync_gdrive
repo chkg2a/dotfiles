@@ -16,7 +16,8 @@ comp_and_sync_file(){
   file_name=$(awk -F'/' '{print $NF}' <<< $1)
   tmp_dir="/tmp/$file_name.tar.gz"
   rm -rf $tmp_dir
-  tar -I pxz -cf $tmp_dir $1
+  cd $1 && cd ..
+  tar -I pxz -cf $tmp_dir $file_name
   gdrive files update $2 $tmp_dir
 }
 
@@ -27,4 +28,4 @@ sync_file(){
 # comp_and_sync_file $SCREENSHOTS_PATH $SCREENSHOTS_ID &
 comp_and_sync_file $STUDIES_PATH $STUDIES_ID &
 comp_and_sync_file $OBSIDIAN_PATH $OBSIDIAN_ID &
-# sync_file $DATABASE_PATH $DATABASE_ID &
+sync_file $DATABASE_PATH $DATABASE_ID &
