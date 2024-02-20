@@ -22,6 +22,7 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.zprofile
 bindkey -v
 eval "$(zoxide init --cmd cd zsh)"
+eval "$(dircolors -b ~/.dircolors)"
 
 # User configuration
 export LANG=en_US.UTF-8
