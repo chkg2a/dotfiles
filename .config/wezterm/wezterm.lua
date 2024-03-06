@@ -76,7 +76,16 @@ return {
 				SplitHorizontal = { domain = "CurrentPaneDomain" },
 			}),
 		},
-
+		{
+			key = "k",
+			mods = "CTRL",
+			action = wezterm.action.ScrollByLine(-1),
+    },
+		{
+			key = "j",
+			mods = "CTRL",
+			action = wezterm.action.ScrollByLine(1),
+    },
 		{
 			key = "=",
 			mods = "CTRL",

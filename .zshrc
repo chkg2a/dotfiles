@@ -7,6 +7,17 @@ fi
 
 export ZSH=$HOME/.oh-my-zsh
 
+zstyle ':completion:*' menu select
+zmodload zsh/complist
+# use the vi navigation keys in menu completion
+bindkey -M menuselect 'h' vi-backward-char
+bindkey -M menuselect 'k' vi-up-line-or-history
+bindkey -M menuselect 'l' vi-forward-char
+bindkey -M menuselect 'j' vi-down-line-or-history
+bindkey -M menuselect '^n' expand-or-complete
+bindkey -M menuselect '^p' reverse-menu-complete
+bindkey -M menuselect '^k' up-history
+bindkey -M menuselect '^j' down-history
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
@@ -20,7 +31,7 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.zprofile
-bindkey -v
+
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(dircolors -b ~/.dircolors)"
 
