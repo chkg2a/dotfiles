@@ -34,7 +34,9 @@ return {
 	-- OpenGL for GPU acceleration, Software for CPU
 	front_end = "OpenGL",
 
-	color_scheme = 'Catppuccin Mocha',
+	-- color_scheme = 'Chalkboard',
+	-- color_scheme = 'Ciapre',
+	color_scheme = 'Cloud',
 
 	-- Font config
 	font = font_with_fallback(font_name),
@@ -55,7 +57,7 @@ return {
 	warn_about_missing_glyphs = false,
 	font_size = 15,
 	line_height = 1.0,
-	dpi = 96.0,
+  dpi = 96.0,
 
 
 	-- Cursor style
@@ -74,6 +76,16 @@ return {
 				SplitHorizontal = { domain = "CurrentPaneDomain" },
 			}),
 		},
+
+		{
+			key = "=",
+			mods = "CTRL",
+			action = wezterm.action.IncreaseFontSize,
+    },
+    { key = '-',
+      mods = 'CTRL',
+      action = wezterm.action.DecreaseFontSize,
+    },
 		{
 			key = [[\]],
 			mods = "CTRL",
