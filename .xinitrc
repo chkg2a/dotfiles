@@ -15,9 +15,9 @@ fi
 setxkbmap -option caps:escape &
 
 # Wallpaper
-# xwallpaper --maximize $HOME/.local/share/wallpaper.jpg &
+xwallpaper --zoom $HOME/.local/share/wallpaper.jpg &
 # xwallpaper --zoom $HOME/.local/share/table.png &
-xwallpaper --zoom $HOME/.local/share/frieren.png &
+# xwallpaper --zoom $HOME/.local/share/frieren.png &
 # xwallpaper --maximize $HOME/.local/share/wallpaper-god.png &
 
 
