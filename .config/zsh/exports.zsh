@@ -15,7 +15,7 @@ export PATH="$HOME/.local/bin":$PATH
 # export HOMEBREW_NO_ANALYTICS=1
 # export HOMEBREW_NO_ENV_HINTS=1
 #export PATH="$PATH:./node_modules/.bin"
-eval "$(zoxide init zsh)"
+eval "$(zoxide init zsh --cmd cd)"
 # eval "`pip completion --zsh`"
 
 
