@@ -1,2 +1,3 @@
 #!/bin/sh
-scrot '/home/xrenne/Screenshotss/%Y-%m-%d_$wx$h.png' -s -e 'xclip -selection clipboard -t image/png -i $f'
+# scrot '/home/xrenne/locale_drive/Pictures/Screenshotss/%Y-%m-%d_$wx$h.png' -s -e 'xclip -selection clipboard -t image/png -i $f'
+scrot '/tmp/yo.png' -s -e 'xclip -selection clipboard -t image/png -i $f'

@@ -1,5 +1,6 @@
 #!/bin/sh
 
+alias bin="npm install --save-dev --save-exact @biomejs/biome && npx @biomejs/biome init"
 alias del="find . -type f -cmin -1"
 alias f="fzf --preview='bat --style numbers,changes --color=always {} | head -500' | xargs nvim"
 alias cfa="nvim ~/.config/zsh/aliases.zsh"
@@ -9,13 +10,13 @@ alias cfd="cd obsidian_ChK; nvim ~/.local/share/obsidian_ChK/dailies/$(date +%F)
 alias cfn="nvim ~/.config/nvim/lua/custom/plugins.lua"
 alias gapp="git add -A && git commit -m 'updated' && git push"
 alias n="nvim"
-alias vim="nvim"
 alias z="zathura"
 alias cat="bat"
 alias s="sxiv"
 alias sl="lsd"
 alias l="lsd"
 alias ls="lsd"
+alias la="lsd -la"
 alias sdn="shutdown now"
 alias bty="upower -i /org/freedesktop/UPower/devices/battery_BAT0"
 alias clock-tui="tclock"

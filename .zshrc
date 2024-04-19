@@ -88,3 +88,10 @@ export PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init -)"
 
 # Restart your shell for the changes to take effect.
+
+# bun completions
+[ -s "/home/xrenne/.bun/_bun" ] && source "/home/xrenne/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
