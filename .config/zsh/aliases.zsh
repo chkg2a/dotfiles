@@ -6,7 +6,7 @@ alias f="fzf --preview='bat --style numbers,changes --color=always {} | head -50
 alias cfa="nvim ~/.config/zsh/aliases.zsh"
 alias cfz="nvim ~/.zshrc"
 alias cfx="nvim ~/.xinitrc"
-alias cfd="cd obsidian_ChK; nvim ~/.local/share/obsidian_ChK/dailies/$(date +%F).md"
+alias cfd="cd obsi; nvim ./dailies/$(date +%F).md"
 alias cfn="nvim ~/.config/nvim/lua/custom/plugins.lua"
 alias gapp="git add -A && git commit -m 'updated' && git push"
 alias n="nvim"
