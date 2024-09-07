@@ -1,5 +1,8 @@
 #!/bin/sh
 
+alias sa="ssh d23cs140@nerist.server"
+alias np1="cd ./frontend/client && npm install && npm run dev"
+alias np2="cd ./backend/server && npm install && npm run dev"
 alias bin="npm install --save-dev --save-exact @biomejs/biome && npx @biomejs/biome init"
 alias del="find . -type f -cmin -1"
 alias f="fzf --preview='bat --style numbers,changes --color=always {} | head -500' | xargs nvim"
@@ -23,6 +26,7 @@ alias clock-tui="tclock"
 alias stopwatch="tclock --size 2 -c LightRed stopwatch"
 alias g='lazygit'
 alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
+alias cpp="rsync -ah --progress"
 
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'

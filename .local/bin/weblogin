@@ -1,7 +1,9 @@
 #!/bin/bash
 
-username=123123
+# username=$(shuf -n 1 ~/.local/bin/regNos.txt)
+username=223109
 waitTime=10
+echo $username
 
 login()
 {
