@@ -1,7 +1,0 @@
-#!/bin/bash
-
-randomWord=$(uuidgen | awk -F- '{print $1 }')
-
-qrencode -o /tmp/$randomWord $(xclip -o)
-
-feh -Z /tmp/$randomWord
