@@ -1,5 +1,7 @@
 #!/bin/sh
 
+alias st="sxiv ~/studies/TimeTable-Sem3.jpeg"
+alias zs="zathura ~/studies/Syllabus_B.Sc\ and\ B.Tech\ _Final_compressed.pdf"
 alias sa="ssh d23cs140@nerist.server"
 alias np1="cd ./frontend/client && npm install && npm run dev"
 alias np2="cd ./backend/server && npm install && npm run dev"
@@ -7,10 +9,10 @@ alias bin="npm install --save-dev --save-exact @biomejs/biome && npx @biomejs/bi
 alias del="find . -type f -cmin -1"
 alias f="fzf --preview='bat --style numbers,changes --color=always {} | head -500' | xargs nvim"
 alias cfa="nvim ~/.config/zsh/aliases.zsh"
+alias cfp="nvim ~/.config/nvim/lua/plugins/init.lua"
 alias cfz="nvim ~/.zshrc"
 alias cfx="nvim ~/.xinitrc"
 alias cfd="cd obsi; nvim ./dailies/$(date +%F).md"
-alias cfn="nvim ~/.config/nvim/lua/custom/plugins.lua"
 alias gapp="git add -A && git commit -m 'updated' && git push"
 alias n="nvim"
 alias z="zathura"
