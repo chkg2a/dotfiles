@@ -1,5 +1,6 @@
 #!/bin/sh
 
+alias journal="nvim ~/.local/share/obsidian_ChK/journaling/$(date +%F).md"
 alias st="sxiv ~/studies/TimeTable-Sem3.jpeg"
 alias zs="zathura ~/studies/Syllabus_B.Sc\ and\ B.Tech\ _Final_compressed.pdf"
 alias sa="ssh d23cs140@nerist.server"
@@ -26,7 +27,10 @@ alias sdn="shutdown now"
 alias bty="upower -i /org/freedesktop/UPower/devices/battery_BAT0"
 alias clock-tui="tclock"
 alias stopwatch="tclock --size 2 -c LightRed stopwatch"
-alias g='lazygit'
+alias ga="git add -A"
+alias gst="git status"
+alias gc='git commit -m "$(date "+%Y-%m-%d %H:%M:%S")"'
+alias gp="git push --set-upstream origin main"
 alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
 alias cpp="rsync -ah --progress"
 
