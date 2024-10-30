@@ -1,6 +1,7 @@
 #!/bin/sh
 [ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
 
+export TERM=xterm-256color
 # history
 HISTFILE=~/.zsh_history
 setopt autocd
@@ -15,11 +16,14 @@ compinit
 _comp_options+=(globdots)		# Include hidden files.
 
 # vi mode
-bindkey -v
+# bindkey -v
+bindkey -r ':'
+bindkey -a ':' vi-insert
 export KEYTIMEOUT=1
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$HOME/projects/libs/includes
 
 # Use vim keys in tab complete menu:
 bindkey -M menuselect 'h' vi-backward-char
@@ -56,7 +60,8 @@ plug "$HOME/.config/zsh/exports.zsh"
 # plug "esc/conda-zsh-completion"
 plug "zsh-users/zsh-autosuggestions"
 plug "hlissner/zsh-autopair"
-plug "zap-zsh/supercharge"
+# plug "zap-zsh/supercharge"
+plug "jeffreytse/zsh-vi-mode"
 # plug "zap-zsh/vim"
 plug "zap-zsh/zap-prompt"
 # plug "zap-zsh/atmachine" 
@@ -100,9 +105,10 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 # pnpm
-export PNPM_HOME="/home/xrenne/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
+# export PNPM_HOME="/home/xrenne/.local/share/pnpm"
+# case ":$PATH:" in
+#   *":$PNPM_HOME:"*) ;;
+#   *) export PATH="$PNPM_HOME:$PATH" ;;
+# esac
 # pnpm end
+#
