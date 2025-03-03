@@ -1,5 +1,8 @@
 #!/bin/sh
 
+alias vidwall="xwinwrap -fs -fdt -ni -b -ov -nf -un -o 1.0 -d -debug -- mpv -wid WID --loop --input-ipc-server=/tmp/mpv-socket ~/Hidamari/miside.mp4"
+alias fimg="find . \( -name \"*.jpeg\" -o -name \"*.png\" \) -type f -print"
+alias li="libreoffice"
 alias vcr="sudo veracrypt --text --pim 0 --keyfiles "" --protect-hidden no /dev/sda2 /media/vcrypt/"
 alias t="thunar ."
 alias hi="ollama run llama3.2"
@@ -14,7 +17,7 @@ alias bin="npm install --save-dev --save-exact @biomejs/biome && npx @biomejs/bi
 alias del="find . -type f -cmin -1"
 alias f="fzf --preview='bat --style numbers,changes --color=always {} | head -500' | xargs nvim"
 alias cfa="nvim ~/.config/zsh/aliases.zsh"
-alias cfp="nvim ~/.config/nvim/lua/plugins/init.lua"
+alias cfn="nvim ~/.config/nvim/lua/plugins/init.lua"
 alias cfz="nvim ~/.zshrc"
 alias cfx="nvim ~/.xinitrc"
 alias cfd="cd obsi; nvim ./dailies/$(date +%F).md"
