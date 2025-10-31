@@ -1,0 +1,13 @@
+# Target labels
+ treesitter_vimdoc
+# Source files and their labels
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/treesitter_vimdoc
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/treesitter_vimdoc.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/treesitter_vimdoc-complete.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_vimdoc-stamp/treesitter_vimdoc-build.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_vimdoc-stamp/treesitter_vimdoc-configure.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_vimdoc-stamp/treesitter_vimdoc-download.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_vimdoc-stamp/treesitter_vimdoc-install.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_vimdoc-stamp/treesitter_vimdoc-mkdir.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_vimdoc-stamp/treesitter_vimdoc-patch.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_vimdoc-stamp/treesitter_vimdoc-update.rule

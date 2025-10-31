@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/treesitter_lua"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/treesitter_lua.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/treesitter_lua-complete.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_lua-stamp/treesitter_lua-build.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_lua-stamp/treesitter_lua-configure.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_lua-stamp/treesitter_lua-download.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_lua-stamp/treesitter_lua-install.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_lua-stamp/treesitter_lua-mkdir.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_lua-stamp/treesitter_lua-patch.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_lua-stamp/treesitter_lua-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"treesitter_lua"
+		],
+		"name" : "treesitter_lua"
+	}
+}

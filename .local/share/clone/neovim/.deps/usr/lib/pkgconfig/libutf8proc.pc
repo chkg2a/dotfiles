@@ -1,0 +1,10 @@
+prefix=/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/usr
+exec_prefix=/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/usr/bin
+libdir=/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/usr/lib
+includedir=/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/usr/include
+
+Name: libutf8proc
+Description: UTF8 processing
+Version: 2.10.0
+Libs: -L${libdir} -lutf8proc
+Cflags: -I${includedir} -DUTF8PROC_EXPORTS

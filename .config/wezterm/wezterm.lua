@@ -5,27 +5,27 @@ local function font_with_fallback(name, params)
 	return wezterm.font_with_fallback(names, params)
 end
 
-wezterm.on('user-var-changed', function(window, pane, name, value)
-    local overrides = window:get_config_overrides() or {}
-    if name == "ZEN_MODE" then
-        local incremental = value:find("+")
-        local number_value = tonumber(value)
-        if incremental ~= nil then
-            while (number_value > 0) do
-                window:perform_action(wezterm.action.IncreaseFontSize, pane)
-                number_value = number_value - 1
-            end
-            overrides.enable_tab_bar = false
-        elseif number_value < 0 then
-            window:perform_action(wezterm.action.ResetFontSize, pane)
-            overrides.font_size = nil
-            overrides.enable_tab_bar = true
-        else
-            overrides.font_size = number_value
-            overrides.enable_tab_bar = false
-        end
-    end
-    window:set_config_overrides(overrides)
+wezterm.on("user-var-changed", function(window, pane, name, value)
+	local overrides = window:get_config_overrides() or {}
+	if name == "ZEN_MODE" then
+		local incremental = value:find("+")
+		local number_value = tonumber(value)
+		if incremental ~= nil then
+			while number_value > 0 do
+				window:perform_action(wezterm.action.IncreaseFontSize, pane)
+				number_value = number_value - 1
+			end
+			overrides.enable_tab_bar = false
+		elseif number_value < 0 then
+			window:perform_action(wezterm.action.ResetFontSize, pane)
+			overrides.font_size = nil
+			overrides.enable_tab_bar = true
+		else
+			overrides.font_size = number_value
+			overrides.enable_tab_bar = false
+		end
+	end
+	window:set_config_overrides(overrides)
 end)
 
 local font_name = "JetBrainsMonoNL NF"
@@ -36,7 +36,7 @@ return {
 
 	-- color_scheme = 'Chalkboard',
 	-- color_scheme = 'Ciapre',
-	color_scheme = 'ayu',
+	color_scheme = "ayu",
 
 	-- Font config
 	font = font_with_fallback(font_name),
@@ -57,8 +57,7 @@ return {
 	warn_about_missing_glyphs = false,
 	font_size = 15,
 	line_height = 1.0,
-  dpi = 96.0,
-
+	dpi = 96.0,
 
 	-- Cursor style
 	default_cursor_style = "BlinkingUnderline",
@@ -80,21 +79,18 @@ return {
 			key = "k",
 			mods = "CTRL",
 			action = wezterm.action.ScrollByLine(-1),
-    },
+		},
 		{
 			key = "j",
 			mods = "CTRL",
 			action = wezterm.action.ScrollByLine(1),
-    },
+		},
 		{
 			key = "=",
 			mods = "CTRL",
 			action = wezterm.action.IncreaseFontSize,
-    },
-    { key = '-',
-      mods = 'CTRL',
-      action = wezterm.action.DecreaseFontSize,
-    },
+		},
+		{ key = "-", mods = "CTRL", action = wezterm.action.DecreaseFontSize },
 		{
 			key = [[\]],
 			mods = "CTRL",
@@ -147,19 +143,19 @@ return {
 			mods = "CTRL|SHIFT|ALT",
 			action = wezterm.action({ AdjustPaneSize = { "Down", 1 } }),
 		},
-		-- { -- browser-like bindings for tabbing
-		-- 	key = "t",
-		-- 	mods = "CTRL",
-		-- 	action = wezterm.action({ SpawnTab = "CurrentPaneDomain" }),
-		-- },
+		{ -- browser-like bindings for tabbing
+			key = "t",
+			mods = "CTRL",
+			action = wezterm.action({ SpawnTab = "CurrentPaneDomain" }),
+		},
 		-- {
-			-- key = "w",
-			-- mods = "CTRL",
-			-- action = wezterm.action({ CloseCurrentTab = { confirm = false } }),
+		-- 	key = "w",
+		-- 	mods = "CTRL",
+		-- 	action = wezterm.action({ CloseCurrentTab = { confirm = false } }),
 		-- },
 		{
 			key = "Tab",
-			mods = "CTRL",
+			mods = "ALT",
 			action = wezterm.action({ ActivateTabRelative = 1 }),
 		},
 		{
@@ -203,7 +199,7 @@ return {
 	-- General
 	automatically_reload_config = true,
 	inactive_pane_hsb = { saturation = 1.0, brightness = 1.0 },
-	window_background_opacity = 0.9,
+	window_background_opacity = 0.95,
 	window_close_confirmation = "NeverPrompt",
-  window_frame = { active_titlebar_bg = "#45475a", font = font_with_fallback(font_name, { bold = true }) },
+	window_frame = { active_titlebar_bg = "#45475a", font = font_with_fallback(font_name, { bold = true }) },
 }

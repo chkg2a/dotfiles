@@ -1,0 +1,13 @@
+# Target labels
+ utf8proc
+# Source files and their labels
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/utf8proc
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/utf8proc.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/utf8proc-complete.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/utf8proc-stamp/utf8proc-build.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/utf8proc-stamp/utf8proc-configure.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/utf8proc-stamp/utf8proc-download.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/utf8proc-stamp/utf8proc-install.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/utf8proc-stamp/utf8proc-mkdir.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/utf8proc-stamp/utf8proc-patch.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/utf8proc-stamp/utf8proc-update.rule

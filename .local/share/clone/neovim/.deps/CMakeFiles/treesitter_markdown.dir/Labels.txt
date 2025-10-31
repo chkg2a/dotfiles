@@ -1,0 +1,13 @@
+# Target labels
+ treesitter_markdown
+# Source files and their labels
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/treesitter_markdown
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/treesitter_markdown.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/treesitter_markdown-complete.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_markdown-stamp/treesitter_markdown-build.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_markdown-stamp/treesitter_markdown-configure.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_markdown-stamp/treesitter_markdown-download.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_markdown-stamp/treesitter_markdown-install.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_markdown-stamp/treesitter_markdown-mkdir.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_markdown-stamp/treesitter_markdown-patch.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_markdown-stamp/treesitter_markdown-update.rule

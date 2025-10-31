@@ -1,0 +1,21 @@
+# Target labels
+ luv
+# Source files and their labels
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/luv
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/luv.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/luv-complete.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luv-stamp/luv-build.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luv-stamp/luv-configure.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luv-stamp/luv-download.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luv-stamp/luv-install.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luv-stamp/luv-mkdir.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luv-stamp/luv-patch.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luv-stamp/luv-update.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/lua_compat53-complete.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/lua_compat53-stamp/lua_compat53-build.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/lua_compat53-stamp/lua_compat53-configure.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/lua_compat53-stamp/lua_compat53-download.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/lua_compat53-stamp/lua_compat53-install.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/lua_compat53-stamp/lua_compat53-mkdir.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/lua_compat53-stamp/lua_compat53-patch.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/lua_compat53-stamp/lua_compat53-update.rule

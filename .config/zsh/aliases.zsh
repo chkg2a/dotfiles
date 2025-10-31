@@ -1,5 +1,7 @@
 #!/bin/sh
 
+alias br='cd "$(git rev-parse --show-toplevel)" && cd backend && go run main.go'
+alias fr='cd "$(git rev-parse --show-toplevel)" && cd frontend && bun run dev --host'
 alias vidwall="xwinwrap -fs -fdt -ni -b -ov -nf -un -o 1.0 -d -debug -- mpv -wid WID --loop --input-ipc-server=/tmp/mpv-socket ~/Hidamari/miside.mp4"
 alias fimg="find . \( -name \"*.jpeg\" -o -name \"*.png\" \) -type f -print"
 alias li="libreoffice"
@@ -23,11 +25,12 @@ alias cfx="nvim ~/.xinitrc"
 alias cfd="cd obsi; nvim ./dailies/$(date +%F).md"
 alias pen="cd obsi; nvim ./dailies/Reminder.md"
 alias gapp="git add -A && git commit -m 'updated' && git push"
-alias n="nvim ."
+alias n="nvim"
 alias z="zathura"
 alias cat="bat"
 alias s="sxiv"
 alias sl="/usr/bin/lsd"
+# alias l="/home/xrenne/.local/bin/lfub ."
 alias l="/usr/bin/lsd"
 alias ls="/usr/bin/lsd"
 alias la="/usr/bin/lsd -la"
@@ -39,7 +42,7 @@ alias ga="git add -A"
 alias gst="git status"
 alias gc='git commit -m "$(date "+%Y-%m-%d %H:%M:%S")"'
 alias gcmsg='git commit -m '
-alias gp="git push --set-upstream origin main"
+alias gp="git push --set-upstream origin main || git push --set-upstream origin master"
 alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
 alias cpp="rsync -ah --progress"
 

@@ -1,0 +1,7 @@
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/libuv-build/CMakeFiles/uv_a.dir
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/libuv-build/CMakeFiles/edit_cache.dir
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/libuv-build/CMakeFiles/rebuild_cache.dir
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/libuv-build/CMakeFiles/list_install_components.dir
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/libuv-build/CMakeFiles/install.dir
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/libuv-build/CMakeFiles/install/local.dir
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/libuv-build/CMakeFiles/install/strip.dir

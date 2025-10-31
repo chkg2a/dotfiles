@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/sbin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_vim-stamp/download-treesitter_vim.cmake;COMMAND;/sbin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_vim-stamp/verify-treesitter_vim.cmake;COMMAND;/sbin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_vim-stamp/extract-treesitter_vim.cmake
+source_dir=/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_vim
+work_dir=/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src
+url(s)=https://github.com/tree-sitter-grammars/tree-sitter-vim/archive/v0.5.0.tar.gz
+hash=SHA256=90019d12d2da0751c027124f27f5335babf069a050457adaed53693b5e9cf10a
+      no_extract=
+

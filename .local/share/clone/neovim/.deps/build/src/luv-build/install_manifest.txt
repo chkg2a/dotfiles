@@ -1,0 +1,5 @@
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/usr/lib/libluv.a
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/usr/include/luv/luv.h
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/usr/include/luv/util.h
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/usr/include/luv/lhandle.h
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/usr/include/luv/lreq.h

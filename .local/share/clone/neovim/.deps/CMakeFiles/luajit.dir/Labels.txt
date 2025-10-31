@@ -1,0 +1,13 @@
+# Target labels
+ luajit
+# Source files and their labels
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/luajit
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/luajit.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/luajit-complete.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luajit-stamp/luajit-build.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luajit-stamp/luajit-configure.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luajit-stamp/luajit-download.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luajit-stamp/luajit-install.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luajit-stamp/luajit-mkdir.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luajit-stamp/luajit-patch.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luajit-stamp/luajit-update.rule

@@ -1,0 +1,5 @@
+# ninja log v6
+0	127	1743673285194228512	CMakeFiles/parser.dir/src/scanner.c.o	eb12e019d0675b15
+0	447	1743673285192843279	CMakeFiles/parser.dir/src/parser.c.o	68b1d127e8dc6c47
+447	473	1743673285639850716	lua.so	d7a6a010c2f7a78c
+3	19	1743673285959856040	CMakeFiles/install.util	f6906c57943856b5

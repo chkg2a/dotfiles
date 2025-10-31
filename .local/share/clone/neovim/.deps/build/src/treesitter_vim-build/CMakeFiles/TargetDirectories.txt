@@ -1,0 +1,7 @@
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_vim-build/CMakeFiles/parser.dir
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_vim-build/CMakeFiles/edit_cache.dir
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_vim-build/CMakeFiles/rebuild_cache.dir
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_vim-build/CMakeFiles/list_install_components.dir
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_vim-build/CMakeFiles/install.dir
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_vim-build/CMakeFiles/install/local.dir
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_vim-build/CMakeFiles/install/strip.dir

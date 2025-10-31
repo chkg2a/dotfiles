@@ -1,0 +1,13 @@
+# Target labels
+ treesitter_c
+# Source files and their labels
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/treesitter_c
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/treesitter_c.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/treesitter_c-complete.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_c-stamp/treesitter_c-build.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_c-stamp/treesitter_c-configure.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_c-stamp/treesitter_c-download.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_c-stamp/treesitter_c-install.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_c-stamp/treesitter_c-mkdir.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_c-stamp/treesitter_c-patch.rule
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_c-stamp/treesitter_c-update.rule

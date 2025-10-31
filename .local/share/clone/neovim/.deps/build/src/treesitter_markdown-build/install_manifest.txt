@@ -1,0 +1,2 @@
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/usr/lib/nvim/parser/markdown.so
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/usr/lib/nvim/parser/markdown_inline.so

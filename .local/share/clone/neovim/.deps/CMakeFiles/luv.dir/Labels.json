@@ -1,0 +1,67 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/luv"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/luv.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/luv-complete.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luv-stamp/luv-build.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luv-stamp/luv-configure.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luv-stamp/luv-download.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luv-stamp/luv-install.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luv-stamp/luv-mkdir.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luv-stamp/luv-patch.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/luv-stamp/luv-update.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/CMakeFiles/lua_compat53-complete.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/lua_compat53-stamp/lua_compat53-build.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/lua_compat53-stamp/lua_compat53-configure.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/lua_compat53-stamp/lua_compat53-download.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/lua_compat53-stamp/lua_compat53-install.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/lua_compat53-stamp/lua_compat53-mkdir.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/lua_compat53-stamp/lua_compat53-patch.rule"
+		},
+		{
+			"file" : "/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/lua_compat53-stamp/lua_compat53-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"luv"
+		],
+		"name" : "luv"
+	}
+}

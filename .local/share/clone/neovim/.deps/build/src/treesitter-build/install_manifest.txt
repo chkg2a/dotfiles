@@ -1,0 +1,3 @@
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/usr/include/tree_sitter/api.h
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/usr/share/pkgconfig/tree-sitter.pc
+/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/usr/lib/libtree-sitter.a
