@@ -15,7 +15,8 @@ fi
 setxkbmap -option caps:escape &
 
 # Wallpaper
-xwallpaper --zoom $HOME/.local/share/wallpaper.jpg &
+# xwallpaper --zoom $HOME/.local/share/wallpaper.jpg &
+betterlockscreen -w
 
 xset r rate 200 50 &
 xset s off -dpms &

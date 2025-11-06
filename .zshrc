@@ -1,114 +1,122 @@
-#!/bin/sh
-[ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
-export TERM=xterm-256color
-# history
-setopt autocd
-stty stop undef
-setopt interactive_comments
+# Path to your Oh My Zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+PATH="$PATH:/home/xrenne/.local/bin"
 
-# Basic auto/tab complete:
-autoload -U compinit
-zstyle ':completion:*' menu select
-zmodload zsh/complist
-compinit
-_comp_options+=(globdots)		# Include hidden files.
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time Oh My Zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="robbyrussell"
 
-# vi mode
-# bindkey -v
-# bindkey -a ':' vi-insert
-export KEYTIMEOUT=1
-export ANDROID_HOME=$HOME/Android/Sdk
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-export PATH=$PATH:$HOME/projects/libs/includes
+# Set list of themes to pick from when loading at random
+# Setting this variable when ZSH_THEME=random will cause zsh to load
+# a theme from this variable instead of looking in $ZSH/themes/
+# If set to an empty array, this variable will have no effect.
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
-# Use vim keys in tab complete menu:
-# bindkey -M menuselect 'h' vi-backward-char
-# bindkey -M menuselect 'k' vi-up-line-or-history
-# bindkey -M menuselect 'l' vi-forward-char
-# bindkey -M menuselect 'j' vi-down-line-or-history
-# bindkey -v '^?' backward-delete-char
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
 
-# Change cursor shape for different vi modes.
-# function zle-keymap-select () {
-#     case $KEYMAP in
-#         vicmd) echo -ne '\e[1 q';;      # block
-#         viins|main) echo -ne '\e[5 q';; # beam
-#     esac
-# }
-# zle -N zle-keymap-select
-# zle-line-init() {
-#     zle -K viins # initiate `vi insert` as keymap (can be removed if `bindkey -V` has been set elsewhere)
-#     echo -ne "\e[5 q"
-# }
-# zle -N zle-line-init
-echo -ne '\e[5 q' # Use beam shape cursor on startup.
-# preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
 
-# bindkey -s '^f' '^ucd "$(dirname "$(fzf)")"\n'
-# bindkey '^[[P' delete-char
+# Uncomment one of the following lines to change the auto-update behavior
+# zstyle ':omz:update' mode disabled  # disable automatic updates
+# zstyle ':omz:update' mode auto      # update automatically without asking
+# zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
-# source
-plug "$HOME/.config/zsh/aliases.zsh"
-plug "$HOME/.config/zsh/exports.zsh"
+# Uncomment the following line to change how often to auto-update (in days).
+# zstyle ':omz:update' frequency 13
 
-# # plugins
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS="true"
 
-# plug "esc/conda-zsh-completion"
-plug "zsh-users/zsh-autosuggestions"
-plug "hlissner/zsh-autopair"
-# plug "zap-zsh/supercharge"
-# plug "jeffreytse/zsh-vi-mode"
-# plug "zap-zsh/vim"
-plug "zap-zsh/zap-prompt"
-# plug "zap-zsh/atmachine" 
-plug "zap-zsh/fzf"
-# # plug "zap-zsh/exa"
-plug "zsh-users/zsh-syntax-highlighting"
-plug "zsh-users/zsh-history-substring-search"
-#
-# keybinds
-# bindkey '^k' autosuggest-accept
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS="true"
 
-export PATH="$HOME/.local/bin":$PATH
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE="true"
 
-# if command -v bat &> /dev/null; then
-#   alias cat="bat -pp --theme \"Visual Studio Dark+\"" 
-#   alias catt="bat --theme \"Visual Studio Dark+\"" 
+# Uncomment the following line to enable command auto-correction.
+# ENABLE_CORRECTION="true"
+
+# Uncomment the following line to display red dots whilst waiting for completion.
+# You can also set it to another string to have that shown instead of the default red dots.
+# e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
+# Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
+# COMPLETION_WAITING_DOTS="true"
+
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# You can set one of the optional three formats:
+# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# or set a custom format using the strftime function format specifications,
+# see 'man strftime' for details.
+# HIST_STAMPS="mm/dd/yyyy"
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Which plugins would you like to load?
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(
+	zsh-autosuggestions
+	git
+	zsh-syntax-highlighting
+	you-should-use
+	zsh-bat
+  vi-mode
+)
+
+source $ZSH/oh-my-zsh.sh
+
+function zle-keymap-select {
+  if [[ $KEYMAP == vicmd ]]; then
+    echo -ne "\e]0;NORMAL MODE\a"
+  else
+    echo -ne "\e]0;INSERT MODE\a"
+  fi
+}
+zle -N zle-keymap-select
+
+# User configuration
+
+# export MANPATH="/usr/local/man:$MANPATH"
+
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
+
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='nvim'
 # fi
 
-bindkey '^[[A' history-substring-search-up
-bindkey '^[[B' history-substring-search-down
+# Compilation flags
+# export ARCHFLAGS="-arch $(uname -m)"
 
-bindkey -M vicmd 'k' history-substring-search-up
-bindkey -M vicmd 'j' history-substring-search-down
-
-# Load pyenv automatically by appending
-# the following to
-# ~/.zprofile (for login shells)
-# and ~/.zshrc (for interactive shells) :
-
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-
-# Restart your shell for the changes to take effect.
-
-# bun completions
-[ -s "/home/xrenne/.bun/_bun" ] && source "/home/xrenne/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-
-# pnpm
-# export PNPM_HOME="/home/xrenne/.local/share/pnpm"
-# case ":$PATH:" in
-#   *":$PNPM_HOME:"*) ;;
-#   *) export PATH="$PNPM_HOME:$PATH" ;;
-# esac
-# pnpm end
+# Set personal aliases, overriding those provided by Oh My Zsh libs,
+# plugins, and themes. Aliases can be placed here, though Oh My Zsh
+# users are encouraged to define aliases within a top-level file in
+# the $ZSH_CUSTOM folder, with .zsh extension. Examples:
+# - $ZSH_CUSTOM/aliases.zsh
+# - $ZSH_CUSTOM/macos.zsh
+# For a full list of active aliases, run `alias`.
 #
-#
-HISTFILE=$HOME/.zsh_history
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+eval "$(zoxide init --cmd cd zsh)"
