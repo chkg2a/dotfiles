@@ -1,3 +1,0 @@
-/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/usr/include/utf8proc.h
-/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/usr/lib/libutf8proc.a
-/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/usr/lib/pkgconfig/libutf8proc.pc

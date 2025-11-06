@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/treesitter_c-build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

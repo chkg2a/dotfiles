@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

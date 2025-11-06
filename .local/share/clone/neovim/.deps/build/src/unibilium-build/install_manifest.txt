@@ -1,2 +1,0 @@
-/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/usr/lib/libunibilium.a
-/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/usr/include/unibilium.h

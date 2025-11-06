@@ -1,8 +1,0 @@
-# ninja log v6
-2	235	1743673286069783558	CMakeFiles/markdown_inline.dir/tree-sitter-markdown-inline/src/scanner.c.o	2eaaddfb4ad3b64e
-1	751	1743673286068857855	CMakeFiles/markdown.dir/tree-sitter-markdown/src/parser.c.o	ce2ebfff96bb4b2a
-2	879	1743673286069591573	CMakeFiles/markdown.dir/tree-sitter-markdown/src/scanner.c.o	5408b19834990bd
-879	896	1743673286945872458	markdown.so	60a2606027b6cc06
-2	935	1743673286069708461	CMakeFiles/markdown_inline.dir/tree-sitter-markdown-inline/src/parser.c.o	f2e66529f636be95
-935	957	1743673287002873408	markdown_inline.so	aa003e5ff751bae2
-1	14	1743673287046874141	CMakeFiles/install.util	6c262aa20572b0be

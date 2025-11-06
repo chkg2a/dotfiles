@@ -1,6 +1,0 @@
-# ninja log v6
-2	127	1743673285134842314	CMakeFiles/unibilium.dir/uninames.c.o	2f69929463bf3a10
-2	213	1743673285135626066	CMakeFiles/unibilium.dir/uniutil.c.o	113c2dac9d9b0082
-1	1115	1743673285133842297	CMakeFiles/unibilium.dir/unibilium.c.o	28a407cdd63276f0
-1115	1166	1743673286247860835	libunibilium.a	e5055d00e0ac2f70
-1	13	1743673286345862467	CMakeFiles/install.util	51f0e57a80832bd2

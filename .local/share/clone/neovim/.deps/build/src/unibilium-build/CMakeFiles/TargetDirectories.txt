@@ -1,7 +1,0 @@
-/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/unibilium-build/CMakeFiles/unibilium.dir
-/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/unibilium-build/CMakeFiles/edit_cache.dir
-/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/unibilium-build/CMakeFiles/rebuild_cache.dir
-/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/unibilium-build/CMakeFiles/list_install_components.dir
-/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/unibilium-build/CMakeFiles/install.dir
-/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/unibilium-build/CMakeFiles/install/local.dir
-/home/xrenne/dotfiles/.local/share/clone/neovim/.deps/build/src/unibilium-build/CMakeFiles/install/strip.dir
