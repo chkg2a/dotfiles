@@ -3,10 +3,12 @@
 	url = https://github.com/chkg2a/ohmyzsh.git
 [submodule ".local/share/clone/dwm"]
 	path = .local/share/clone/dwm
-	url = https://github.com/chkg2a/dwm.git
+	url = git@github.com:chkg2a/dwm
+	; url = https://github.com/chkg2a/dwm.git
 [submodule ".config/nvim"]
 	path = .config/nvim
 	url = https://github.com/chkg2a/nvim-scratch.git
 [submodule ".local/share/clone/dwmblocks"]
 	path = .local/share/clone/dwmblocks
-	url = https://github.com/chkg2a/dwmblocks
+	url = git@github.com:chkg2a/dwmblocks
+	; url = https://github.com/chkg2a/dwmblocks
